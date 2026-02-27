@@ -18,4 +18,3 @@ def test_playwright_browser_shortcut_launch(page: Page):
     page.goto("https://github.com/himanshupathak1986")
     print("Page title:", page.title());
     assert "Himanshu Pathak" in page.title()
-    
