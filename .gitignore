@@ -1,0 +1,5 @@
+# Ignore all .pyc files
+*.pyc
+
+# Also ignore the __pycache__ directory which stores .pyc files in Python 3
+__pycache__/
