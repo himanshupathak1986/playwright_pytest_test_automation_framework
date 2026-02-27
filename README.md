@@ -76,4 +76,11 @@ $ pytest tests/test_file.py::test_function_name
 
 Run all tests in the current directory and subdirectories:
 $ pytest
+
+To display all the print statements for the execution
+$pytest -s my_test_file.py
+
+To execute all the smoke tests (tagging smoke tests @ pytest.mark.smoke)
+$pytest -m smoke
+
 ```
